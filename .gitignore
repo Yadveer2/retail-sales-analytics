@@ -1,0 +1,17 @@
+# raw data files (too large for git, download from Kaggle)
+data/olist_*.csv
+data/product_category_name_translation.csv
+
+# generated files (recreated by running the notebooks)
+data/master.csv
+sql/olist.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
